@@ -1,0 +1,92 @@
+.toast-block{
+    bottom: 16px;
+    right: 16px;
+    position: fixed;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.078);
+    z-index: 3;
+}
+
+.toast{
+    min-width: 450px;
+    max-width: 600px;
+    min-height: 56px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.toast + .toast{
+    margin-top: 10px;
+}
+
+.toast__right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding-left: 16px;
+}
+
+.toast__icon{
+    /* height: 24px;
+    width: 24px; */
+    flex: 0 0 24px;
+    height: 24px;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toast-icon--success{
+    background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -1602px -258px;
+	width: 20px;
+	height: 20px;
+}
+
+.toast__content{
+    flex: 1;
+    display: flex;
+    column-gap: 3px;
+}
+
+.toast--fail{
+    color: #DE3618;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.toast--success{
+    color: #50B83C;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.toast__content--message{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.toast__left{
+    padding-left: 16px;
+    display: flex;
+    column-gap: 16px;
+    padding-right: 16px;
+}
+
+.toast__action a{
+    color: #1F1F1F;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.toast__button--cancel{
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    border: unset;
+    background-color: unset;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.main-content{
+    width: calc(100% - 200px);
+    height: calc(100vh - 56px);
+    padding: 24px;
+    background-color: #F6F6F6;
+    float: right;
+    box-sizing: border-box;
+}

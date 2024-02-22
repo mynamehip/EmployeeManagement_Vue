@@ -1,0 +1,78 @@
+.m-dialog{
+    position: fixed;
+    background-color: #00000085;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.m-dialog-container{
+    border-radius: 4px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.m-dialog__button--close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.m-dialog__header{
+    padding: 22px 0 0 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.m-dialog__body{
+    flex: 1;
+    padding: 22px 24px 0 24px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.icon-red-aleart{
+   	background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -538px -146px;
+	width: 20px;
+	height: 20px;
+}
+
+.m-dialog__footer{
+    padding: 24px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+}
+
+.m-dialog__button--cancel{
+    background-color: #FFF;
+    color: #000;
+}
+
+.m-dialog__button--cancel:hover{
+    background-color: #DE3618;
+    color: #FFF;
+}
+
+.m-dialog__button--confirm{
+    background-color: #50B83C;
+    color: #FFF;
+}
+

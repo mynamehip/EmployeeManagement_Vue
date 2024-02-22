@@ -1,0 +1,173 @@
+.m-popup{
+    position: fixed;
+    background-color: #00000085;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.m-popup__container{
+    min-width: 800px;
+    border-radius: 4px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 12px 16px 12px 16px;
+    box-shadow: 0px 4px 16px rgba(23,27,42,0.24);
+}
+
+.m-popup__header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.popup__header-title{
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    color: #212121;
+    padding-right: 16px;
+}
+
+.popup__header-classify{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.popup__header-classify .checkbox-item{
+    display: flex;
+    align-items: center;
+}
+
+.popup__header-classify label{
+    line-height: 14px;
+    margin-right: 20px;
+}
+
+.popup__header-button{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.m-popup__body{
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--boder-color-default);
+}
+
+.m-popup__body-top{
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+}
+
+.m-popup__top-left{
+    width: 50%;
+}
+
+.m-popup__top--r1{
+    display: flex;
+    align-items: center;
+}
+
+.input__label--required{
+    color: red;
+}
+
+.input--46{
+    width: calc(40% - 6px);
+    margin-right: 6px;
+}
+
+.input--64{
+    width: 60%;
+}
+
+.input-unit{
+    width: 100%;
+}
+
+.select__button{
+    transform: translateY(8px);
+    
+}
+
+.input-birth{
+    padding-right: 6px;
+}
+
+
+.input-gender__box{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    column-gap: 16px;
+}
+
+.m-popup__top--r2{
+    display: flex;
+}
+
+.m-popup__top--r2 .input--46{
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.form__combobox{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.input-birth__label, .input-gender__label, .input-unit__label, .input-date__label, .input-jobtitle__label{
+    font-size: 14px;
+    color: #1F1F1F;
+    font-family: RobotoMedium;
+    font-weight: 500;
+}
+
+.m-popup__bot--r1{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.m-popup__bot--r2{
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.input-bank-account, .input-bank, .input-bank-unit, .input-mobile, .input-phone, .input-email{
+    flex: 1;
+}
+
+.m-popup__footer{
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 0;
+}
+
+.popup__footer-left{
+    flex: 1;
+}
+
+.popup__footer-right{
+    display: flex;
+    column-gap: 8px;
+}
+
+
+
+
+

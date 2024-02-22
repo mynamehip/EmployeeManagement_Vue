@@ -1,0 +1,62 @@
+.select{
+    display: flex;
+    align-items: center;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.select:focus{
+    border-color: green;
+}
+
+.select-bar{
+    width: 100%;
+    height: 26px;
+    border: 1px solid var(--boder-color-default);
+    padding: 0 0 0 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.select__button{
+    padding: 0;
+    top: 0;
+    right: 0;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.select__button:hover{
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.select__button-icon{
+    background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -564px -365px;
+	width: 8px;
+	height: 5px;
+}
+  
+.select ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.select li{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    min-width: 160px;
+    color: #1F1F1F;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-left: 8px;
+}

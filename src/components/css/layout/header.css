@@ -1,0 +1,63 @@
+.header{
+    margin: 0;
+    padding: 0;
+    height: 56px;
+    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    font-family: RobotoMedium;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__toggle{
+    margin-left: 16px;
+	width: 16px;
+	height: 14px;
+	background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -847px -35px;
+}
+
+.header__title{
+    margin-left: 32px;
+    min-width: 50px;
+    font-weight: 700;
+    font-family: RobotoBold;
+}
+
+.header__dropdown--icon{
+    margin-left: 8px;
+	background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -1129px -365px;
+	width: 14px;
+	height: 8px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.header__right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__announ--icon{
+	background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+	flex: 0 0 24px;
+	height: 24px;
+}
+
+.header__announ--icon:hover{
+    background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -257px -32px;
+}
+
+.user-avatar{
+	background: url('/src/assets/img/Sprites.64af8f61.svg') no-repeat -352px -894px;
+	flex: 0 0 32px;
+	height: 32px;
+    border-radius: 50%;
+    margin-left: 24px;
+    margin-right: 8px;
+}
